@@ -1,5 +1,12 @@
 # SRL4E – Semantic Role Labeling for Emotions
-This is the official repository for the paper [*SRL4E – Semantic Role Labeling for Emotions: A Unified Evaluation Framework*](), that will be presented at ACL 2022 by [Cesare Campagnano](https://caesar.one), [Simone Conia](https://c-simone.github.io/) and [Roberto Navigli](https://www.diag.uniroma1.it/navigli/). Here you will find the scripts to build the SRL4E dataset and the codebase for our experiments.
+This is the official repository for the paper [*SRL4E – Semantic Role Labeling for Emotions: A Unified Evaluation Framework*](), which will be presented at ACL 2022 by [Cesare Campagnano](https://caesar.one), [Simone Conia](https://c-simone.github.io/) and [Roberto Navigli](https://www.diag.uniroma1.it/navigli/). Here you will find the scripts to build the SRL4E dataset and the codebase for our experiments.
+
+## Paper Abstract
+> In the field of sentiment analysis, several studies have highlighted that a single sentence may express multiple, sometimes contrasting, sentiments and emotions, each with its own experiencer, target and/or cause. 
+To this end, over the past few years researchers have started to collect and annotate data manually, in order to investigate the capabilities of automatic systems not only to distinguish between emotions, but also to capture their semantic constituents. 
+However, currently available gold datasets are heterogeneous in size, domain, format, splits, emotion categories and role labels, making comparisons across different works difficult and hampering progress in the area. 
+In this paper, we tackle this issue and present a unified evaluation framework focused on Semantic Role Labeling for Emotions (SRL4E), in which we unify several datasets tagged with emotions and semantic roles by using a common labeling scheme. 
+We use SRL4E as a benchmark to evaluate how modern pretrained language models perform and analyze where we currently stand in this task, hoping to provide the tools to facilitate studies in this complex area.
 
 ## Description
 SRL4E (Semantic Role Labeling for Emotions) is an evaluation framework that aggregates and unifies several datasets tagged with emotions and their semantic constituents (namely Cue, Experiencer, Target and Stimulus) using a common labeling scheme. It includes resources that are different in domain, language, style, and annotation scheme.
@@ -9,16 +16,10 @@ SRL4E has two main goals:
 - to facilitate model comparisons under a fair setup.
 
 To do this, we leverage [Plutchik](https://en.wikipedia.org/wiki/Robert_Plutchik)'s [wheel of emotions](https://en.wikipedia.org/wiki/Robert_Plutchik#Plutchik's_wheel_of_emotions), and map all the existing resources to 8 basic emotions – anger, anticipation, disgust, fear, joy, sadness, surprise, trust, and other.
+We refer to our paper for more details.
 
 ## Code and data
 Coming soon!
-
-## Abstract
-> In the field of sentiment analysis, several studies have highlighted that a single sentence may express multiple, sometimes contrasting, sentiments and emotions, each with its own experiencer, target and/or cause.  
-  To this end, over the past few years researchers have started to collect and annotate data manually, in order to investigate the capabilities of automatic systems not only to distinguish between emotions, but also to capture their semantic constituents.  
-  However, currently available gold datasets are heterogeneous in size, domain, format, splits, emotion categories and role labels, making comparisons across different works difficult and hampering progress in the area.  
-  In this paper, we tackle this issue and present a unified evaluation framework focused on Semantic Role Labeling for Emotions (SRL4E), in which we unify several datasets tagged with emotions and semantic roles by using a common labeling scheme.  
-  We use SRL4E as a benchmark to evaluate how modern pretrained language models perform and analyze where we currently stand in this task, hoping to provide the tools to facilitate studies in this complex area.
   
 ## Cite this work
 If you use any part of this work, please consider citing the paper as follows:
@@ -34,5 +35,30 @@ If you use any part of this work, please consider citing the paper as follows:
     publisher  = "Association for Computational Linguistics"
 }
 ```
+
+### Other references
+If you evaluate your work on this benchmark, please also cite the original datasets.
+```
+@inproceedings{,
+    title      = "",
+    author     = "",
+    booktitle  = "",
+    year       = "",
+    address    = "",
+    publisher  = ""
+}
+```
+
+## Acknowledgments
+
+The authors gratefully acknowledge the support of the [ERC Consolidator Grant MOUSSE No. 726487](http://mousse-project.org/) and the [European Language Grid
+project No. 825627 (Universal Semantic Annotator, USeA)](https://live.european-language-grid.eu/catalogue/project/5334/) under the European Union’s Horizon 2020 research and innovation programme.
+
+This work was supported in part by the MIUR under grant “Dipartimenti di eccellenza 2018-2022” of the Department of Computer Science of the Sapienza University of Rome.
+
+
+## License
+This work is under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
+
 
 <!-- Todo: add acknowledgements, license, code and data -->
