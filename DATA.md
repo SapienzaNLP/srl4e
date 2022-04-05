@@ -10,16 +10,16 @@ SRL4E is composed of several resources, but they share a similar argument struct
 |Target| Person or entity towards whom/which the emotion identified by the cue is directed. | 
 |Stimulus| Entity, action or event that causes the emotion identified by the cue. |
 
-This argument structure should be interpreted as in the example below.
-![Example of argumental structure](assets/images/example.png)
+This argument structure should be interpreted as in the example below.  
+<img src="assets/images/example.png" alt="Example of argumental structure" width="600"/>  
 The Cue expression is “stand by”, and its associated emotion is Trust. 
 The participants to the emotion are “I” (Experiencer of Trust), “Obama” (Target of Trust), and “he deserves another 4yrs in office” (Stimulus of Trust).
 
 Each dataset uses different categories of emotions. In SRL4E we set up a set that is valid in most cases, and map all resources to it. 
 This schema is based on [Plutchik](https://en.wikipedia.org/wiki/Robert_Plutchik)'s [wheel of emotions](https://en.wikipedia.org/wiki/Robert_Plutchik#Plutchik's_wheel_of_emotions). 
 It provides clearly distinct and well-defined coarse-grained categories: anger, anticipation, disgust, fear, joy, sadness, surprise and trust. 
-These categories can be compounded into dyads to virtually describe all other fine-grained sets, and to form even more complex feelings, as in the image below.
-![Plutchik's wheel of emotions with dyads](assets/images/wheel_of_emotions.png)
+These categories can be compounded into dyads to virtually describe all other fine-grained sets, and to form even more complex feelings, as in the image below.  
+<img src="assets/images/wheel_of_emotions.png" alt="Plutchik's wheel of emotions with dyads" width="400"/>  
 The following table summarizes which annotations form part of the original corpora and, therefore, which ones are also part of SRL4E.
 |Resource| Cue | Stimulus | Experiencer | Target|
 | ------ | :------: | :------: | :------: | :------: |
