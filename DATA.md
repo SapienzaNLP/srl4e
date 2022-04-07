@@ -1,5 +1,5 @@
 # SRL4E - Data
-In this page you will find important informations about the resources included in SRL4E and the instructions to reproduce the benchmark.
+In this page you will find important information about the resources included in SRL4E and the instructions to reproduce the benchmark.
 
 ## Annotation
 SRL4E is composed of several resources, but they share a similar argument structure. In the following table we formalize this structure, according to the scheme adopted in SRL4E:
