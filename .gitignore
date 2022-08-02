@@ -1,0 +1,5 @@
+data_/*
+utils_
+utils/data_converters/*.json
+.DS_Store
+*.pyc
